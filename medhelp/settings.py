@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--o_88i*v^th0ham!rm(8j%y2gnbyh6x)^91y$7ox4t1&%*hh3_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["medhelp-backend.onrender.com"]
 
 
 # Application definitions
