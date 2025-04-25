@@ -35,7 +35,7 @@ env = environ.Env()
 environ.Env.read_env()
 
 # Use environment variable for secret key
-SECRET_KEY = env('SECRET_KEY')
+
 DEBUG = env('DEBUG')
 INSTALLED_APPS = [
     'django.contrib.admin',
